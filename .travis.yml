@@ -9,4 +9,4 @@ install:
 
 script:
   - python generate --ci -I
-  - git diff -w --exit-code
+  - git diff -w --ignore-blank-lines --exit-code
